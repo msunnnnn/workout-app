@@ -9,7 +9,7 @@ export default function App() {
       {/* <FlatList
         data={exercises}
         contentConteainerStyle= {{gap:5}}
-        keyExtractor={(item, index) => item.name+index}
+        keyExtractor={(item, index) => item.name + index}
         renderItems={({ item }) => <ExerciseListItem item={item} />}
       /> */}
       <View style={{ gap: 5 }}>
